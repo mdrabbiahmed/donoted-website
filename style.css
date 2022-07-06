@@ -148,14 +148,17 @@ footer h2{
     margin-right: 20%;
     height: 20px;
     padding: 5%;
-    pointer-events: none;
-    
-    
+    pointer-events: none; 
+}
+input{
+    font-size: 30px;
+    background-color: white;
 }
 button{
-    color:white;
+    font-size: 30px;
+    margin-left: -5px;
     border: 2px solid red;
-    border-radius: 10px;
+    border-radius: 5px;
     background-image: linear-gradient(red, tomato);
 }
 footer p{
