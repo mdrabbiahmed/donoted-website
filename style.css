@@ -83,3 +83,48 @@ body{
     color: rebeccapurple;
 }
 /*second section */
+.donate-plan-text{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-weight: lighter;
+}
+.donate-plan-paragraph{
+    font-size: 15px;
+    font-style: normal;
+}
+.donate-plan-area{
+    display: flex;
+    text-align:justify;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.donate-paragraph{
+    padding-right:20% ;
+    color: gray;
+}
+.icon-area{
+    background-color: aqua;
+    margin-right: 40px;
+    border-radius: 10px;
+    padding-top: 50px;
+    
+}
+/*footer*/
+footer{
+    background-color: black;
+    height:150px;
+}
+footer h2{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    font-style:initial;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
