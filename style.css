@@ -113,65 +113,28 @@ body{
     margin-bottom: 10%;
     
 }
-.content{
-   
+
+/*footer*/
+
+.flexiable-container{
+    display:flex;
+    margin-bottom: 150px;
+}
+.half-width{
     width: 50%;
-    display: flex;
-    margin: 5px;
-    border: 5px solid rebeccapurple;
-    border-radius: 10px;
-    background-color:rgb(229, 228, 235);
-}
-
-.par{
-    text-align: justify;
-    padding-right: 10px;
-    padding-left: 5px;
-    font-style: italic;
-    font-size: 20px;
-
-}
-.join-btn{
-    background: #ff7200;
-    border: none;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    font-size: 30px;
-    border-radius: 10px;
-    cursor: pointer;
-    text-decoration: none;
-      
-}
-.content h1{
-    font-family: 'Times New Roman';
-    font-size: 40px;
-    padding-left: 20px;
-    margin-top: 9%;
+    padding-left: 2%;
     
 }
-.content span{
-    color: #ff7200;
-    font-size: 65px
-}
-/*footer*/
-footer{
-    background-color: black;
-    height:150px;
-}
-footer h2{
-    text-align: center;
-    color: red;
-    font-size: 40px;
-    font-style:initial;
-}
-.Bonus-area{
-    display: flex;
+.half-width img{
     width: 80%;
-    margin: 10%;
-    padding-right: 10%;
 }
-.Bonus-area img{
-    width:100%;
+.baby-pic-download{
+    border-style: groove;
+    text-decoration: none;
+    padding: 5px;
+    background-image: linear-gradient(orange, red);
+    color: blanchedalmond;
+    font-style: italic;
 }
 .get-update{
     text-align: center;
@@ -202,7 +165,19 @@ button{
     border-radius: 5px;
     background-image: linear-gradient(red, tomato);
 }
+footer{
+    background-color: black;
+    height:200px;
+}
+footer h2{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    font-style:initial;
+}
 footer p{
     text-align: center;
     color: white;
+    margin-bottom: 2%;
+    font-size: 20px;
 }
